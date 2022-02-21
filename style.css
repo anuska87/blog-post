@@ -40,6 +40,8 @@ h2 {
 
 .article {
   width: 75%;
+  display: inline-block;
+  float: left;
 }
 
 .article-image {
@@ -54,6 +56,7 @@ h2 {
 
 .other-posts {
   width: 25%;
+  display: inline-block;
 }
 
 .blog-post {
@@ -70,6 +73,12 @@ h2 {
   color: #F28F0C;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #footer-image {
