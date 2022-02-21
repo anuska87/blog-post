@@ -1,14 +1,12 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  width: 60%;
-  /* background-color: powderblue;
-  background-image: url(https://i.pinimg.com/originals/28/f0/22/28f022d382aa2c1c68dc00c96c452692.jpg);
-  background-repeat: no-repeat; 
-  background-position: right;
-  background-attachment: fixed; */
+  font-size: 18px;
+  font-family: Calibri,Arial;
 }
 
 h1, h2 {
@@ -17,24 +15,61 @@ h1, h2 {
 
 h1 {
   font-size: 40px;
-  /* font-family: Helvetica,sans-serif;
-  font-weight: 100;
-  line-height: 200%;
-  line-height: 1.5;
-  text-align: right;
-  text-align: center;
-  text-transform: uppercase;
-  text-transform: lowercase;
-  text-transform: capitalize; */
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.header {
+  width: 1140px;
+  margin: 20px auto 10px auto;
+  padding: 30px;
+  background-image: url(bg-image.jpg);
+  background-size: cover;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  width: 1140px;
+  margin: 20px auto 10px auto;
+}
+
+.article {
+  width: 75%;
 }
 
 .article-image {
   height: auto;
   width: 100%;
+}
+
+.article-text {
+  text-align: justify;
+  margin: 20px 0px;
+}
+
+.other-posts {
+  width: 25%;
+}
+
+.blog-post {
+  margin-bottom: 50px;
+}
+
+.other-posts img {
+  width: 80%;
+  height: 300px;
+}
+
+.other-title {
+  font-size: 16px;
+  color: #F28F0C;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #footer-image {
