@@ -1,3 +1,7 @@
+body {
+  width: 60%;
+}
+
 h1, h2 {
   color: #F28F0C;
 }
@@ -11,7 +15,6 @@ h2 {
 }
 
 img {
-  height: 300px;
-  width: 400px;
-  border: 3px red solid;
+  height: auto;
+  width: 100%;
 }
